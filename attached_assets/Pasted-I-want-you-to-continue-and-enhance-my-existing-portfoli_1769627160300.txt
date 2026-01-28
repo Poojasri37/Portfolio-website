@@ -1,0 +1,216 @@
+I want you to continue and enhance my existing portfolio website built using HTML, CSS, and JavaScript.
+The UI is acceptable, but the content depth, project wiring, and interactivity must be improved.
+
+🔹 1. PROJECT ORGANIZATION (STRICT)
+A. Key Projects (Show FIRST – Featured Cards)
+
+These are my primary, high-impact projects and must appear first, with larger cards and View Details interaction:
+
+Virtual Interview Assistant
+Repo:
+https://github.com/Poojasri37/Virtual_interview_assistant
+
+AI Contract Assistant — Legal Intelligence System (Hackathon Winner)
+Repo:
+https://github.com/Poojasri37/ai-contract-platform
+
+AquaSentry Vision — AI Water Quality Monitoring System
+Related Repos:
+
+https://github.com/Poojasri37/portable_water_assistant
+
+https://github.com/Poojasri37/ai-portable-water-assistant
+
+https://github.com/Poojasri37/water_assistant_website
+
+AgriTwin AI — Hyperspectral + IoT Precision Agriculture System
+Repo:
+https://github.com/Poojasri37/Agri-Twin-AI---hyperspectral-image-processing-with-IOT-integrated-system
+
+Multi-Agent AI System — CrewAI / Multimodal Agents
+Repos:
+
+https://github.com/Poojasri37/multimodal-agent
+
+https://github.com/Poojasri37/multimodal-agent-document-
+
+ResiliCode — Knowledge-Driven Autonomous Software Resilience Agent
+Repo:
+https://github.com/Poojasri37/ResiliCode--Knowledge-Driven-Autonomous-Software-Resilience-Agent
+
+SentientStream — Mood-Aware AI Content Filtering for Digital Well-Being
+Repo:
+https://github.com/Poojasri37/SentientStream-Mood-Aware-AI-Content-Filtering-for-Digital-Well-Being
+
+B. Other Projects (Separate Section – Expandable or Grid)
+
+These must be shown under “Other Technical Projects”, grouped logically (NOT individual large cards):
+
+Data Engineering & Streaming
+
+Real-Time Weather Data Streaming using Kafka
+Repo: https://github.com/Poojasri37/Real-Time-Weather-Data-Streaming-Pipeline-using-Kafka-and-PostgreSQL
+
+GitHub API Streaming using Snowflake
+Repo: https://github.com/Poojasri37/Real-time-github-api-streaming-using-snowflake
+
+Business Intelligence & Analytics
+
+Women Empowerment Insights (Power BI Dashboard)
+
+Business Analytics Dashboards (Tableau)
+
+AI & ML Systems
+
+National Trust-Based Credit Intelligence Platform
+Repo: https://github.com/Poojasri37/National-trust-based-credit-intelligence-platform
+
+Crop Price Prediction using Firebase
+Repo: https://github.com/Poojasri37/crop-price-prediction-firebase
+
+Platforms & Applications
+
+FanSphere — Women’s Sports Fan Engagement Platform
+Repo: https://github.com/Poojasri37/FanSphere---Women-s-Sports-Fan-Engagement-Platform
+
+🔹 2. “VIEW DETAILS” FUNCTIONALITY (MANDATORY)
+
+The View Details button must NOT be static.
+
+Required behavior:
+
+Clicking View Details flips or expands the project card
+
+The back/expanded view must show:
+
+Complete tech stack
+
+System-level tools
+
+GitHub icon linking to the exact repo(s)
+
+Example – AquaSentry Vision (Tech Stack to Display):
+
+Python
+
+TensorFlow, Keras
+
+OpenCV (Vision Analysis)
+
+IoT Data Processing
+
+Alerting & Monitoring Engine
+
+Geo-location Tagging
+
+AI-assisted Maintenance Logic
+
+Environmental Analytics
+
+🔹 3. GitHub LINKS (NO PROFILE LINKS)
+
+❌ Do NOT link to my GitHub profile
+
+✅ Each project must link to its specific repository
+
+Use a GitHub icon button on:
+
+Project cards
+
+View Details back side
+
+Other Projects list
+
+Open links in a new tab
+
+🔹 4. SKILLS SECTION (MUST MATCH MY RESUME EXACTLY)
+Languages
+
+Python, Java, SQL, HTML, CSS, JavaScript
+
+AI / ML
+
+Scikit-learn, TensorFlow, Keras, OpenCV, Transformers, LLMs, Prompt Engineering, LangChain, LangGraph, RAG, FAISS, Chroma
+
+Multi-Agent Systems
+
+CrewAI, Autonomous Agents, Agent Orchestration, Shared Memory, Context Retrieval, Multimodal Agents
+
+MLOps & Data Engineering
+
+Apache Kafka, Hadoop, Hive, PostgreSQL, Snowflake, Docker, DVC, Jenkins, Git, GitHub, CI/CD Pipelines
+
+Visualization & Analytics
+
+Power BI, Tableau
+
+Cloud
+
+AWS, Google Cloud Platform
+
+🔹 5. ACHIEVEMENTS & CERTIFICATIONS (DO NOT OMIT)
+Achievements
+
+Winner – Code 0 Clock Hackathon (1st Prize)
+
+Finalist – AI By Her Impact Summit
+
+Finalist – Smart India Hackathon (Internal)
+
+Top 10 – Hackceler8 SRM Hackathon
+
+Solved 200+ LeetCode & HackerRank problems
+
+Participated in 50+ hackathons and AI innovation challenges
+
+GitHub Achievement: Pull Shark
+
+Certifications
+
+NPTEL Elite Silver – Internet of Things
+
+NPTEL Elite Silver – Python for Data Science
+
+Generative AI with Large Language Models – DeepLearning.AI & AWS
+
+AWS Cloud Practitioner – GeeksforGeeks
+
+Salesforce Innovator Certification
+
+Qlik Business Analyst Certification
+
+🔹 6. UI / UX REQUIREMENTS
+
+Clean, modern, professional UI
+
+Responsive (mobile, tablet, desktop)
+
+Subtle animations (hover, flip, fade-in)
+
+Sticky navigation bar
+
+Circular profile image
+
+GitHub & LinkedIn icons in footer
+
+Optimized for Netlify deployment
+
+🔹 7. CODE REQUIREMENTS
+
+Use only HTML, CSS, JavaScript
+
+No frameworks
+
+Clean folder structure
+
+Comment code clearly
+
+Project data should be stored in a JS object/array for easy scaling
+
+🔹 8. FINAL OBJECTIVE
+
+The portfolio should clearly communicate that I am a GenAI, Multi-Agent, and MLOps engineer who builds real, production-oriented AI systems, not just demos.
+
+Do NOT oversimplify.
+Do NOT remove depth.
+Do NOT collapse everything into generic cards.
