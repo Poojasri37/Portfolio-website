@@ -1,0 +1,175 @@
+Personal Details
+
+Name: Poojasri M
+
+Role: AI & Data Science Enthusiast | GenAI • MLOps • Cloud
+
+Email: poojasrinirmalamanickam@gmail.com
+
+Phone: +91 80560 49315
+
+GitHub: https://github.com/Poojasri37
+
+LinkedIn: https://www.linkedin.com/in/poojasri-nirmalamanickam-413269215/
+
+Portfolio: https://poojasri37.github.io/Portfolio/
+
+Website Requirements
+
+Sticky navigation bar with smooth scrolling
+
+Hero section with name, role, short intro, and circular profile image placeholder
+
+Professional color palette with subtle gradients and modern typography
+
+Fully responsive layout (mobile, tablet, desktop)
+
+Smooth animations (hover effects, fade-in on scroll)
+
+SEO-friendly, accessible HTML
+
+Sections to Include
+1. About Me
+
+Write a concise professional summary highlighting:
+
+Generative AI & LLM-based systems
+
+Retrieval-Augmented Generation (RAG)
+
+Multi-Agent Systems using CrewAI
+
+MLOps, data pipelines, and real-world AI deployment
+
+2. Technical Skills
+
+Display skills as grouped lists or badges:
+
+Languages: Python, Java, SQL, HTML, CSS
+
+AI/ML: Scikit-learn, TensorFlow, Keras, OpenCV, Transformers, LLMs, LangChain, LangGraph, RAG, FAISS, Chroma
+
+Multi-Agent Systems: CrewAI, Autonomous AI Agents, Agent Orchestration, Shared Memory & Context Retrieval
+
+MLOps & Data Engineering: Apache Kafka, Hadoop, Hive, PostgreSQL, Snowflake, Docker, DVC, Jenkins, Git, GitHub
+
+Visualization & Analytics: Power BI, Tableau
+
+Cloud: AWS, Google Cloud Platform
+
+3. Key Projects (Card-Based Layout)
+
+Each project card must include:
+
+Project title
+
+Short description
+
+Tech stack (small tags)
+
+GitHub icon button that opens the repository in a new tab
+
+Key Projects:
+
+Virtual Interview Assistant – GenAI interview automation using LLMs, RAG, LangGraph, STT/TTS
+
+AI Contract Assistant (Hackathon Winner) – Legal AI system with custom vector database
+
+AquaSentry Vision – AI water quality monitoring with alerts, vision analysis, geo-location tagging (AI By Her finalist)
+
+AgriTwin AI – Precision agriculture intelligence system (Smart India Hackathon, AI Casebook)
+
+Multi-Agent AI System – CrewAI-based autonomous collaboration
+
+ResiliCode – Autonomous CI/CD resilience AI agent
+
+SentientStream – Mood-aware AI content filtering system
+
+4. Other Projects
+
+Display as a grid or expandable section:
+
+DataCast – AI Podcast Generator
+
+Power BI & Tableau Dashboards
+
+Real-Time Weather Data Streaming (Kafka + PostgreSQL)
+
+GitHub API Streaming using Snowflake
+
+ML Foundations (Fashion-MNIST, CIFAR-10, Breast Cancer Prediction, Customer Segmentation, etc.)
+
+Each project must also include a GitHub icon link where applicable.
+
+5. Achievements
+
+Display as a clean list or timeline:
+
+🏆 Winner – Code 0 Clock Hackathon (1st Prize)
+
+🌍 Finalist – AI By Her Impact Summit
+
+🔟 Top 10 – Hackceler8 SRM Hackathon
+
+🎯 Finalist – Smart India Hackathon (Internal)
+
+💻 Solved 200+ problems on LeetCode & HackerRank
+
+🚀 Participated in 50+ national and institutional hackathons and AI innovation challenges
+
+6. Certifications
+
+Display as cards or list:
+
+NPTEL Elite Silver – Internet of Things
+
+NPTEL Elite Silver – Python for Data Science
+
+Generative AI with Large Language Models – DeepLearning.AI & AWS
+
+AWS Cloud Practitioner – GeeksforGeeks
+
+Salesforce Innovator Certification
+
+Qlik Business Analyst Certification
+
+7. Contact Section
+
+Email, GitHub, LinkedIn icons
+
+Optional contact message or mailto button
+
+Design & Code Requirements
+
+Use HTML5, CSS3, and Vanilla JavaScript
+
+Use CSS Grid & Flexbox
+
+Use Google Fonts (modern sans-serif)
+
+Use Font Awesome or inline SVG icons for GitHub buttons
+
+Place profile image at /assets/profile.jpg
+
+Folder structure:
+
+/assets
+index.html
+style.css
+script.js
+
+
+Comment the code clearly
+
+No external frameworks
+
+Output Required
+
+Generate:
+
+index.html
+
+style.css
+
+script.js
+All files must be complete, clean, production-ready, and deployable on Netlify.
