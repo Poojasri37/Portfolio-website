@@ -1,24 +1,34 @@
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Navigation } from '@/components/Navigation';
 import { SectionHeading } from '@/components/SectionHeading';
 import { ProjectCard, OtherProjectCard, type ProjectData } from '@/components/ProjectCard';
-import { useCreateMessage } from '@/hooks/use-messages';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
-import { insertMessageSchema, type InsertMessage } from '@shared/schema';
+import { z } from 'zod';
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Github, Linkedin, Mail, MapPin, Download, CheckCircle2, Trophy, Award, ExternalLink, Star, Code2, Zap } from 'lucide-react';
+import { useToast } from '@/hooks/use-toast';
 import profileImg from '@assets/Poojasri_M_1769625952854.jpg';
 
-export default function Home() {
-  const createMessage = useCreateMessage();
+const contactSchema = z.object({
+  name: z.string().min(1, "Name is required"),
+  email: z.string().email("Invalid email address"),
+  message: z.string().min(10, "Message must be at least 10 characters"),
+});
 
-  const form = useForm<InsertMessage>({
-    resolver: zodResolver(insertMessageSchema),
+type ContactForm = z.infer<typeof contactSchema>;
+
+export default function Home() {
+  const { toast } = useToast();
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const form = useForm<ContactForm>({
+    resolver: zodResolver(contactSchema),
     defaultValues: {
       name: "",
       email: "",
@@ -26,10 +36,18 @@ export default function Home() {
     },
   });
 
-  const onSubmit = (data: InsertMessage) => {
-    createMessage.mutate(data, {
-      onSuccess: () => form.reset(),
-    });
+  const onSubmit = (data: ContactForm) => {
+    setIsSubmitting(true);
+    const mailtoLink = `mailto:poojasrinirmalamanickam@gmail.com?subject=Portfolio Contact from ${encodeURIComponent(data.name)}&body=${encodeURIComponent(`Name: ${data.name}\nEmail: ${data.email}\n\nMessage:\n${data.message}`)}`;
+    window.location.href = mailtoLink;
+    setTimeout(() => {
+      setIsSubmitting(false);
+      form.reset();
+      toast({
+        title: "Email client opened!",
+        description: "Please send the email from your mail application.",
+      });
+    }, 1000);
   };
 
   const skills = [
@@ -544,10 +562,10 @@ export default function Home() {
                   <Button 
                     type="submit" 
                     className="w-full h-12 rounded-xl text-md font-semibold"
-                    disabled={createMessage.isPending}
+                    disabled={isSubmitting}
                     data-testid="button-send-message"
                   >
-                    {createMessage.isPending ? "Sending..." : "Send Message"}
+                    {isSubmitting ? "Opening..." : "Send Message"}
                   </Button>
                 </form>
               </Form>
